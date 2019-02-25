@@ -16,7 +16,7 @@
         <!-- Header -->
         <span class="navbar-brand bg-info text-white p-3">Stacy Nowak</span>      
         <!-- button when links collapse -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="collapsiblelinks"><span class="navbar-toggler-icon"></span></button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsiblelinks"><span class="navbar-toggler-icon"></span></button>
         <!-- Links; collapse to group and hide at parent breakpoint-->
         <div class="collapse navbar-collapse" id="collapsiblelinks">
             <ul class="navbar-nav ml-auto">
@@ -40,12 +40,13 @@
                 <h3>Contact</h3>
                 <hr>
                 <div class="form-group m-3">
-                    <label for="name">Name</label>
+                    <label for="name" class="py-2">Name</label>
                     <input type="text" class="form-control" id="name">
-                    <label for="email">Email</label>
+                    <label for="email" class="py-2">Email</label>
                     <input type="email" class="form-control" id="email">
-                    <label for="message">Message</label>
+                    <label for="message" class="py-2">Message</label>
                     <textarea class="form-control" id="message" rows="10"></textarea>
+                    <button type="submit" class="btn btn-info m-3">Submit</button>
                 </div>
             </div>
         </div>
@@ -59,6 +60,10 @@
         </div>
     </footer>
     
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
     
 </html>
