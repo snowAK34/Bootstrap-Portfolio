@@ -14,23 +14,32 @@
     margin: 0 auto;
 }
 
-#about-me-page, #contact-page-content {
+#about-me-page {
     background-image: url("../images/greyzz_@2X.png");
 }
 
-#in-touch {
-    margin-left: 3vw;
-    margin-top: 1vw;
-    font-family: 'Roboto', sans-serif;
+#contact-page-body {
+    background-color: #c2b280;
+}
+
+#contact-page-content {
+    background-color: white;
+    padding: 50px;
+    margin-top: 30px;
 }
 
 #contact-info {
-    margin-left: 3vw;
-    margin-top: 3vw;
+    margin: auto;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-#form, #bio {
+#icon-div {
+    margin: auto;
+    width: 100%;
+}
+
+#bio {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -53,7 +62,7 @@
     box-sizing: border-box;
 }
 
-#portfolio-title {
+#portfolio-title, #contact-title {
     font-family: 'B612 Mono', monospace;
     color: white;
     background-color: #4286f4;
@@ -73,15 +82,14 @@
     position: absolute;
     bottom: 0;
     width: 350px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px;
     background-color: white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
 }
 
-@media only screen and (max-width: 1196px) {
+/* @media only screen and (max-width: 1196px) {
     .label {
         width: 290px;
     }
@@ -98,4 +106,4 @@
     .label {
         width: 510px;
     }
-}
+} */
