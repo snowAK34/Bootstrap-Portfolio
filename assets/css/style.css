@@ -1,0 +1,100 @@
+#front-page {
+    background-image: url("../images/DSC03498.jpg");
+    background-size: cover;
+    font-family: 'B612 Mono', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+#about-me-page, #contact-page-content {
+    background-image: url("../images/greyzz_@2X.png");
+}
+
+#in-touch {
+    margin-left: 3vw;
+    margin-top: 1vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact-info {
+    margin-left: 3vw;
+    margin-top: 3vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+#form, #bio {
+    font-family: 'Roboto', sans-serif;
+}
+
+.icon {
+    font-size: 3vw;
+    padding:10px;
+}
+
+#submit-btn {
+    background-color: #4286f4;
+    color: white;
+}
+
+#submit-btn:hover {
+    background-color: #1d54ad;
+}
+
+#profile-page {
+    background-image: url("../images/backdrop-72250_1280.jpg");
+}
+
+#portfolio-title {
+    font-family: 'B612 Mono', monospace;
+    color: white;
+    background-color: #4286f4;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.app-pictures {
+    border: solid 5px white;
+    margin: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.label {
+    position: absolute;
+    bottom: 0;
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1196px) {
+    .label {
+        width: 290px;
+    }
+}
+
+@media only screen and (max-width: 988px) {
+    .label {
+        width: 690px;
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 764px) {
+    .label {
+        width: 510px;
+    }
+}

@@ -2,25 +2,28 @@
 <html lang="en-us">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.pagepiling.css">
+    <link href="https://fonts.googleapis.com/css?family=B612+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
+<div id="pagepiling">
+    <div class="section" id="front-page">Stacy Nowak</div>
+    <div class="section" id="about-me">
 
-    <!-- Navbar for Heading across Page; expand for responsive collapsing-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-info" style="border-width: 5px !important">
-        <!-- Header -->
-        <span class="navbar-brand bg-info text-white p-3">Stacy Nowak</span>      
-        <!-- button when links collapse -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-secondary">  
+ 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsiblelinks"><span class="navbar-toggler-icon"></span></button>
-        <!-- Links; collapse to group and hide at parent breakpoint-->
+      
         <div class="collapse navbar-collapse" id="collapsiblelinks">
-            <ul class="navbar-nav ml-auto float-right">
+            <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">About</a>
                 </li>
@@ -34,21 +37,14 @@
         </div>
     </nav>
 
-    <!-- Center content of Page -->
-    <div class="container-fluid py-5" style="background-image: url(images/greyzz_@2X.png)">
+    <div class="container-fluid py-5" id="about-me-page">
         <div class="row justify-content-center">
-            <div class="col col-lg-8 col-sm-12 p-4 bg-white border">
-                <div class="row">
-                    <div class="col">
-                        <h2>About Me</h2>
-                    </div>
-                </div>  
-                <hr>
+            <div class="col col-lg-10 col-sm-12 p-4 bg-white border">
                 <div class="row">
                     <div class="col col-md-4 col-12">
-                        <img src="images/stacy.jpeg" class="img-responsive w-100" alt="Stacy Nowak">
+                        <img src="assets/images/Webp.net-resizeimage.jpg" class="img-responsive w-100" alt="Stacy Nowak">
                     </div>
-                    <div class="col col-md-8 col-12">
+                    <div id="bio" class="col col-md-8 col-12">
                         <p>
                             Hi!  I’m Stacy, and I am a new web developer who is ready to launch a career in web development!  Previously I have worked in the field of zoology.  Then after playing with some online coding tutorials, I discovered how fun programming can be!  So, I enrolled in the University of Washington Coding Bootcamp to flex my coding muscles and develop some amazing programming skills.
                         </p>
@@ -58,23 +54,21 @@
                         <p>
                             When I’m not working on a project, I can be found enjoying my love for animals, either volunteering at Seattle’s Woodland Park Zoo, or at home with my dogs.  I moved to Seattle with my husband ten years ago from Ohio, and I have loved life on the west coast ever since.  Go Sounders!
                         </p>
+                        <a href="https://drive.google.com/file/d/1MsrPt32p8tA-SzqLrn4g_Wmzj_yRO_bK/view?usp=sharing" alt="resume">Resume</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Footer -->
-    <footer class="footer fixed-bottom text-center bg-secondary border-top border-info" style="border-width: 5px !important">
-        <div class="container">
-            <span class="text-light">Copyright ©</span>
-        </div>
-    </footer>
+</div>
+</div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/jquery.pagepiling.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/t.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script src="assets/javascript/script.js"></script>
 </body>
 
 </html>
