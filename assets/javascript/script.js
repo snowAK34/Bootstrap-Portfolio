@@ -1,5 +1,7 @@
 $(document).ready(function() {
-    $("#pagepiling").pagepiling();
+    $("#pagepiling").pagepiling({
+        normalScrollElements: '.pp-scrollable'
+    });
     
     $("#front-page").t({
         speed: 125,

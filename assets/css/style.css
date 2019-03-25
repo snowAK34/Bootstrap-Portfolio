@@ -50,6 +50,7 @@
 
 #profile-page {
     background-image: url("../images/backdrop-72250_1280.jpg");
+    box-sizing: border-box;
 }
 
 #portfolio-title {
