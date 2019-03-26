@@ -27,10 +27,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .icon {
     font-size: 1.5em;
+}
+
+.icon, .btn-link {
+    margin: 0 10px;
 }
 
 .btn-link, #home-btn {
