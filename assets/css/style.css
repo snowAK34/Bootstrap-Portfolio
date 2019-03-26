@@ -15,46 +15,34 @@
 }
 
 #about-me-page {
-    background-image: url("../images/greyzz_@2X.png");
-}
-
-#contact-page-body {
-    background-color: #c2b280;
-}
-
-#contact-page-content {
-    background-color: white;
-    padding: 50px;
-    margin-top: 30px;
-}
-
-#contact-info {
-    margin: auto;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-}
-
-#icon-div {
-    margin: auto;
-    width: 100%;
+    background-image: url("../images/DSC03498.jpg");
+    background-size: cover;
 }
 
 #bio {
     font-family: 'Roboto', sans-serif;
 }
 
-.icon {
-    font-size: 3vw;
-    padding:10px;
+#contact-info, #icon-links  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-#submit-btn {
+.icon {
+    font-size: 1.5em;
+}
+
+.btn-link, #home-btn {
+    font-family: 'B612 Mono', monospace;
     background-color: #4286f4;
     color: white;
+    border-radius: 5px;
 }
 
-#submit-btn:hover {
+.btn-link:hover, #home-btn:hover {
     background-color: #1d54ad;
+    color: white;
 }
 
 #profile-page {
@@ -62,48 +50,33 @@
     box-sizing: border-box;
 }
 
-#portfolio-title, #contact-title {
+#portfolio-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#portfolio-title {
     font-family: 'B612 Mono', monospace;
     color: white;
     background-color: #4286f4;
     border-radius: 8px;
-    padding: 5px;
-    margin-top: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card {
+    border: solid 5px white;
+    margin: 10px;
 }
 
 .app-pictures {
-    border: solid 5px white;
-    margin: 10px;
-    position: relative;
-    width: 100%;
+    border: solid thin black;
 }
 
-.label {
-    position: absolute;
-    bottom: 0;
-    width: 350px;
-    margin: 0 10px;
-    background-color: white;
+.card-body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
 }
-
-/* @media only screen and (max-width: 1196px) {
-    .label {
-        width: 290px;
-    }
-}
-
-@media only screen and (max-width: 988px) {
-    .label {
-        width: 690px;
-        font-size: 32px;
-    }
-}
-
-@media only screen and (max-width: 764px) {
-    .label {
-        width: 510px;
-    }
-} */
