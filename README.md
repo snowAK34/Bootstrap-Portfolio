@@ -1,6 +1,6 @@
 # Bootstrap-Portfolio
 
-A recreation of a previous basic portfolio project.
+https://snowak34.github.io/Bootstrap-Portfolio/
 
 ## Description
 
@@ -10,8 +10,10 @@ Bootstrap-Portfolio sets up a basic structure for a portfolio site utilizing Boo
 
 This project was created to explore the use of Bootstrap to form a website. Bootstrap was used to easily inscrease the responsiveness of the website.
 
+Update: This portfolio has been updated to be a more creative and fully useful portfolio site.
+
 ## Roadmap
 
-Additional application links are yet to be added on the portfolio page.
+Portfolio page will be updated with better projects as more are built.
 
-Functionality will need to be added to the contact page.
+About me page will be updated as I gain more skills and experience.
