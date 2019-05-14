@@ -15,15 +15,18 @@
     background-size: cover;
 }
 
+#prof-pic {
+    border-radius: 50%;
+}
+
 #bio {
     font-family: 'Roboto', sans-serif;
 }
 
-#contact-info, #icon-links  {
+#contact-row, #contact-info, #icon-links  {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 .icon {
