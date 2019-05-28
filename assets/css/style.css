@@ -1,3 +1,8 @@
+body {
+    background-image: url("../images/DSC03498.jpg");
+    background-size: cover;
+}
+
 #front-page {
     background-image: url("../images/DSC03498.jpg");
     background-size: cover;
@@ -10,11 +15,6 @@
     text-align: center;
 }
 
-#about-me-page {
-    background-image: url("../images/DSC03498.jpg");
-    background-size: cover;
-}
-
 #prof-pic {
     border-radius: 50%;
 }
@@ -23,10 +23,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
-#contact-row, #contact-info, #icon-links  {
+#contact-row, #contact-info {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+#icon-links, #box-links  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .icon {
@@ -49,7 +55,11 @@
     color: white;
 }
 
-#profile-page {
+#home-btn {
+    margin: 20px
+}
+
+#portfolio-page {
     background-image: url("../images/backdrop-72250_1280.jpg");
     box-sizing: border-box;
 }
