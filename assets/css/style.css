@@ -30,7 +30,8 @@ body {
 }
 
 .contact {
-    margin-right: 30px;
+    margin-right: 30em;
+    margin-left: 30em;
 }
 
 #icon-links, #box-links  {
