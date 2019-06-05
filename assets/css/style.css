@@ -29,11 +29,6 @@ body {
     justify-content: space-evenly;
 }
 
-.contact {
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
 #icon-links, #box-links  {
     display: flex;
     flex-direction: row;
