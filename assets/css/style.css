@@ -23,10 +23,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#contact-row, #contact-info {
+#contact-info {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.contact {
+    margin-right: 30px;
 }
 
 #icon-links, #box-links  {
